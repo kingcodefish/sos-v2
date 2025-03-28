@@ -6,7 +6,8 @@ import os from 'node:os'
 import fs from 'node:fs'
 import { update } from './update'
 import { createDecipheriv } from 'crypto';
-import { parseString, parseStringPromise } from 'xml2js';
+import { parseStringPromise } from 'xml2js';
+import { ElevenLabsClient, play } from "elevenlabs";
 
 const require = createRequire(import.meta.url)
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
@@ -126,7 +127,7 @@ ipcMain.handle('open-win', (_, arg) => {
   }
 })
 
-ipcMain.handle('read-sos-file', async (e, arg) => {
+ipcMain.handle('read-sos-file', async (_, arg) => {
   let buffer = fs.readFileSync(arg);
   var iv = "SOSFMM69";
   var key = "SOSFMM69";
@@ -143,4 +144,15 @@ ipcMain.handle('read-sos-file', async (e, arg) => {
   decryptedData += decipher.final();
   var xml = decryptedData.toString(/*"utf16le"*/);
   return await parseStringPromise(xml, {trim:true});
+})
+
+const client = new ElevenLabsClient();
+ipcMain.handle('text-to-speech', async (_, arg) => {
+  const audio = await client.textToSpeech.convert("5l5f8iK3YPeGga21rQIX", {
+    text: arg,
+    model_id: "eleven_multilingual_v2",
+    output_format: "mp3_44100_128",
+  });
+
+  await play(audio);
 })

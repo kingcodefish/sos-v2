@@ -7,7 +7,10 @@ const Vocabulary = ({ vocab_list }: { vocab_list: VocabList }) => {
       <div className="grid grid-cols-4 gap-2 bg-gray-800 p-6 px-10">
         {vocab_list.vocab_item.map(word => (
           <>
-            <span className="font-bold mr-auto mb-auto cursor-pointer hover:opacity-60 transition-all">{word.vocab_word[0]}</span>
+            <span className="font-bold mr-auto mb-auto cursor-pointer hover:opacity-60 transition-all"
+              onClick={() => {
+                window.ipcRenderer.invoke('text-to-speech', word.vocab_word[0]);
+              }}>{word.vocab_word[0]}</span>
             <span className="text-left col-span-3">{word.vocab_definition[0]}</span>
           </>
         ))}
