@@ -3,7 +3,10 @@ import { createRequire } from 'node:module'
 import { fileURLToPath } from 'node:url'
 import path from 'node:path'
 import os from 'node:os'
+import fs from 'node:fs'
 import { update } from './update'
+import { createDecipheriv } from 'crypto';
+import { parseString, parseStringPromise } from 'xml2js';
 
 const require = createRequire(import.meta.url)
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
@@ -120,4 +123,23 @@ ipcMain.handle('open-win', (_, arg) => {
   } else {
     childWindow.loadFile(indexHtml, { hash: arg })
   }
+})
+
+ipcMain.handle('read-sos-file', async (e, arg) => {
+  let buffer = fs.readFileSync(arg);
+  var iv = "SOSFMM69";
+  var key = "SOSFMM69";
+  var ivBufferHex = Buffer.from(iv).toString("hex");
+  var keyBufferHex = Buffer.from(key).toString("hex");
+  var data = buffer.toString("hex");
+  var decipher = createDecipheriv(
+    "des-cbc",
+    Buffer.from(keyBufferHex, "hex"),
+    Buffer.from(ivBufferHex, "hex")
+  );
+  decipher.setAutoPadding(false);
+  var decryptedData = decipher.update(data, "hex", "utf16le");
+  decryptedData += decipher.final();
+  var xml = decryptedData.toString(/*"utf16le"*/);
+  return await parseStringPromise(xml, {trim:true});
 })

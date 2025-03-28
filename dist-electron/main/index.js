@@ -3,6 +3,9 @@ import { createRequire } from "node:module";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
 import os from "node:os";
+import fs from "node:fs";
+import { createDecipheriv } from "crypto";
+import { parseStringPromise } from "xml2js";
 const { autoUpdater } = createRequire(import.meta.url)("electron-updater");
 function update(win2) {
   autoUpdater.autoDownload = false;
@@ -127,6 +130,26 @@ ipcMain.handle("open-win", (_, arg) => {
   } else {
     childWindow.loadFile(indexHtml, { hash: arg });
   }
+});
+ipcMain.handle("read-sos-file", async (e, arg) => {
+  let buffer = fs.readFileSync(arg);
+  var iv = "SOSFMM69";
+  var key = "SOSFMM69";
+  var ivBufferHex = Buffer.from(iv).toString("hex");
+  var keyBufferHex = Buffer.from(key).toString("hex");
+  var data = buffer.toString("hex");
+  var decipher = createDecipheriv(
+    "des-cbc",
+    Buffer.from(keyBufferHex, "hex"),
+    Buffer.from(ivBufferHex, "hex")
+  );
+  decipher.setAutoPadding(false);
+  var decryptedData = decipher.update(data, "hex", "utf16le");
+  decryptedData += decipher.final();
+  var xml = decryptedData.toString(
+    /*"utf16le"*/
+  );
+  return await parseStringPromise(xml, { trim: true });
 });
 export {
   MAIN_DIST,
