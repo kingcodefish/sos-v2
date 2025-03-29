@@ -31,13 +31,12 @@
     "node-web-audio-api": "^1.0.4",
     "tailwind-merge": "^3.0.2",
     "tailwindcss-animate": "^1.0.7",
-    "xml2js": "^0.6.2"
+    "xml-js": "^1.6.11"
   },
   "devDependencies": {
     "@playwright/test": "^1.48.2",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
-    "@types/xml2js": "^0",
     "@vitejs/plugin-react": "^4.3.3",
     "autoprefixer": "^10.4.20",
     "electron": "^33.2.0",

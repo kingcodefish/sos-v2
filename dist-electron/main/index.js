@@ -5,7 +5,7 @@ import path from "node:path";
 import os from "node:os";
 import fs from "node:fs";
 import { createDecipheriv } from "crypto";
-import { parseStringPromise } from "xml2js";
+import convert from "xml-js";
 import { ElevenLabsClient, play } from "elevenlabs";
 const { autoUpdater } = createRequire(import.meta.url)("electron-updater");
 function update(win2) {
@@ -134,7 +134,7 @@ ipcMain.handle("open-win", (_, arg) => {
     childWindow.loadFile(indexHtml, { hash: arg });
   }
 });
-ipcMain.handle("read-sos-file", async (_, arg) => {
+ipcMain.handle("read-sos-file", (_, arg) => {
   let buffer = fs.readFileSync(arg);
   var iv = "SOSFMM69";
   var key = "SOSFMM69";
@@ -152,7 +152,9 @@ ipcMain.handle("read-sos-file", async (_, arg) => {
   var xml = decryptedData.toString(
     /*"utf16le"*/
   );
-  return await parseStringPromise(xml, { trim: true });
+  xml = xml.slice(0, -2);
+  console.log(xml);
+  return convert.xml2json(xml);
 });
 const client = new ElevenLabsClient();
 ipcMain.handle("text-to-speech", async (_, arg) => {

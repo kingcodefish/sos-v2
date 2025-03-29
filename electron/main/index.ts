@@ -6,7 +6,7 @@ import os from 'node:os'
 import fs from 'node:fs'
 import { update } from './update'
 import { createDecipheriv } from 'crypto';
-import { parseStringPromise } from 'xml2js';
+import convert from 'xml-js';
 import { ElevenLabsClient, play } from "elevenlabs";
 
 const require = createRequire(import.meta.url)
@@ -128,7 +128,7 @@ ipcMain.handle('open-win', (_, arg) => {
   }
 })
 
-ipcMain.handle('read-sos-file', async (_, arg) => {
+ipcMain.handle('read-sos-file', (_, arg) => {
   let buffer = fs.readFileSync(arg);
   var iv = "SOSFMM69";
   var key = "SOSFMM69";
@@ -144,7 +144,13 @@ ipcMain.handle('read-sos-file', async (_, arg) => {
   var decryptedData = decipher.update(data, "hex", "utf16le");
   decryptedData += decipher.final();
   var xml = decryptedData.toString(/*"utf16le"*/);
-  return await parseStringPromise(xml, {trim:true});
+
+  // LL: There seems to be two file ending characters that are decoded as Є
+  // We want to trim these off to avoid errors.
+  xml = xml.slice(0, -2);
+  
+  console.log(xml);
+  return convert.xml2json(xml);
 })
 
 const client = new ElevenLabsClient();
