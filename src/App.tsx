@@ -1,5 +1,6 @@
 import { ReactHTMLElement, useEffect, useLayoutEffect, useState } from 'react'
 import { ToggleGroup, ToggleGroupItem } from './components/ui/toggle-group';
+import { Popover, PopoverContent, PopoverTrigger } from './components/ui/popover';
 import { ThemeProvider } from './ThemeProvider';
 import { cn } from './lib/utils';
 
@@ -127,9 +128,9 @@ const parseElement = (el: XMLElement, fontFamily: string, fontSize: string) => {
       );
     }
     case 'vocab_sound':
-    case 'problem':
+/*     case 'problem':
       // Discard
-      return <></>;
+      return <></>; */
     default:
     {
       return (
@@ -193,23 +194,23 @@ const StyleAdjuster = ({ fontFamily, setFontFamily, fontSize, setFontSize } : {
   fontSize: string,
   setFontSize: React.Dispatch<React.SetStateAction<string>>,
 }) => {
-  const [open, setOpen] = useState(false);
 
   return (
-    open ?
-    <div className="fixed left-4 bottom-4 rounded-lg bg-gray-900 flex flex-col p-4 gap-2 select-none items-center">
-      <ToggleGroup type="single" value={fontFamily} onValueChange={setFontFamily}>
-        <ToggleGroupItem value="Montserrat" className="font-[Montserrat]">Aa</ToggleGroupItem>
-        <ToggleGroupItem value="Noto Serif" className="font-['Noto_Serif']">Aa</ToggleGroupItem>
-        <ToggleGroupItem value="Playfair Display" className="font-['Playfair_Display']">Aa</ToggleGroupItem>
-      </ToggleGroup>
-      <ToggleGroup type="single" value={fontSize} onValueChange={setFontSize}>
-        <ToggleGroupItem value="small" className="text-sm">Sm</ToggleGroupItem>
-        <ToggleGroupItem value="medium" className="text-base">Md</ToggleGroupItem>
-        <ToggleGroupItem value="large" className="text-lg">Lg</ToggleGroupItem>
-      </ToggleGroup>
-    </div>
-    : <div onClick={() => setOpen(true)} className="fixed left-4 bottom-4 rounded-lg bg-gray-800 p-2 text-sm select-none cursor-pointer transition-all hover:opacity-80">Aa</div>
+    <Popover>
+      <PopoverTrigger className="fixed left-4 bottom-4 rounded-lg bg-gray-800 p-2 text-sm select-none cursor-pointer transition-all hover:opacity-80">Aa</PopoverTrigger>
+      <PopoverContent align="start" className="fixed left-0 bottom-0 rounded-lg bg-gray-900 flex flex-col p-4 gap-2 select-none items-center w-40 h-30">
+        <ToggleGroup type="single" value={fontFamily} onValueChange={setFontFamily}>
+          <ToggleGroupItem value="Montserrat" className="font-[Montserrat]">Aa</ToggleGroupItem>
+          <ToggleGroupItem value="Noto Serif" className="font-['Noto_Serif']">Aa</ToggleGroupItem>
+          <ToggleGroupItem value="Playfair Display" className="font-['Playfair_Display']">Aa</ToggleGroupItem>
+        </ToggleGroup>
+        <ToggleGroup type="single" value={fontSize} onValueChange={setFontSize}>
+          <ToggleGroupItem value="small" className="text-sm">Sm</ToggleGroupItem>
+          <ToggleGroupItem value="medium" className="text-base">Md</ToggleGroupItem>
+          <ToggleGroupItem value="large" className="text-lg">Lg</ToggleGroupItem>
+        </ToggleGroup>
+      </PopoverContent>
+    </Popover>
   );
 };
 
