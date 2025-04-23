@@ -1,0 +1,2194 @@
+{
+  "declaration": { "attributes": { "version": "1.0", "encoding": "utf-8" } },
+  "elements": [
+    {
+      "type": "element",
+      "name": "assignment",
+      "attributes": {
+        "ident": "hiswldu03l3",
+        "title": "",
+        "sectioncount": "2",
+        "type": "lesson",
+        "subject": "hiswld",
+        "unit": "3",
+        "mathmode": "0"
+      },
+      "elements": [
+        { "type": "element", "name": "references" },
+        {
+          "type": "element",
+          "name": "vocab_list",
+          "elements": [
+            {
+              "type": "element",
+              "name": "vocab_item",
+              "attributes": { "group": "1" },
+              "elements": [
+                {
+                  "type": "element",
+                  "name": "vocab_word",
+                  "elements": [{ "type": "text", "text": "Carolingian" }]
+                },
+                {
+                  "type": "element",
+                  "name": "vocab_sound",
+                  "elements": [{ "type": "text", "text": "carolig.mp3" }]
+                },
+                {
+                  "type": "element",
+                  "name": "vocab_definition",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Name of second Frankish dynasty of kings. Name taken from the Latin name for Charles-Carolus."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "name": "vocab_item",
+              "attributes": { "group": "1" },
+              "elements": [
+                {
+                  "type": "element",
+                  "name": "vocab_word",
+                  "elements": [{ "type": "text", "text": "count" }]
+                },
+                {
+                  "type": "element",
+                  "name": "vocab_sound",
+                  "elements": [{ "type": "text", "text": "count.mp3" }]
+                },
+                {
+                  "type": "element",
+                  "name": "vocab_definition",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "A noble who ruled a county or other small region during Charlemagne's time. Later a high ranking noble."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "name": "vocab_item",
+              "attributes": { "group": "1" },
+              "elements": [
+                {
+                  "type": "element",
+                  "name": "vocab_word",
+                  "elements": [{ "type": "text", "text": "duke" }]
+                },
+                {
+                  "type": "element",
+                  "name": "vocab_sound",
+                  "elements": [{ "type": "text", "text": "duke.mp3" }]
+                },
+                {
+                  "type": "element",
+                  "name": "vocab_definition",
+                  "elements": [
+                    { "type": "text", "text": "Highest ranking noble." }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "name": "vocab_item",
+              "attributes": { "group": "1" },
+              "elements": [
+                {
+                  "type": "element",
+                  "name": "vocab_word",
+                  "elements": [{ "type": "text", "text": "march" }]
+                },
+                {
+                  "type": "element",
+                  "name": "vocab_sound",
+                  "elements": [{ "type": "text", "text": "march.mp3" }]
+                },
+                {
+                  "type": "element",
+                  "name": "vocab_definition",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "A frontier area along the border of a country, especially one subject to attack and needing strong defense."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "name": "vocab_item",
+              "attributes": { "group": "1" },
+              "elements": [
+                {
+                  "type": "element",
+                  "name": "vocab_word",
+                  "elements": [{ "type": "text", "text": "margrave" }]
+                },
+                {
+                  "type": "element",
+                  "name": "vocab_sound",
+                  "elements": [{ "type": "text", "text": "margrave.mp3" }]
+                },
+                {
+                  "type": "element",
+                  "name": "vocab_definition",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "In the Middle Ages, the military ruler of a march."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "name": "vocab_item",
+              "attributes": { "group": "1" },
+              "elements": [
+                {
+                  "type": "element",
+                  "name": "vocab_word",
+                  "elements": [{ "type": "text", "text": "Papal States" }]
+                },
+                {
+                  "type": "element",
+                  "name": "vocab_sound",
+                  "elements": [{ "type": "text", "text": "papal_st.mp3" }]
+                },
+                {
+                  "type": "element",
+                  "name": "vocab_definition",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Large district in central Italy ruled by Popes from 775-1870."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "name": "vocab_item",
+              "attributes": { "group": "1" },
+              "elements": [
+                {
+                  "type": "element",
+                  "name": "vocab_word",
+                  "elements": [{ "type": "text", "text": "scriptorium" }]
+                },
+                {
+                  "type": "element",
+                  "name": "vocab_sound",
+                  "elements": [{ "type": "text", "text": "scriptor.mp3" }]
+                },
+                {
+                  "type": "element",
+                  "name": "vocab_definition",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "A room in a monastery for writing or copying manuscripts."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "name": "vocab_item",
+              "attributes": { "group": "1" },
+              "elements": [
+                {
+                  "type": "element",
+                  "name": "vocab_word",
+                  "elements": [{ "type": "text", "text": "wergild" }]
+                },
+                {
+                  "type": "element",
+                  "name": "vocab_sound",
+                  "elements": [{ "type": "text", "text": "wergild.mp3" }]
+                },
+                {
+                  "type": "element",
+                  "name": "vocab_definition",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Literally a man's price or worth. The price determined the amount of compensation to be paid."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "section",
+          "attributes": { "ident": "0001", "problemcount": "8" },
+          "elements": [
+            {
+              "type": "element",
+              "name": "presentation",
+              "elements": [
+                {
+                  "type": "element",
+                  "name": "h3",
+                  "attributes": { "style": "text-align: center" },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "img",
+                      "attributes": {
+                        "src": "../../Globimag/hiswld_hdr.jpg",
+                        "height": "113",
+                        "width": "450"
+                      }
+                    },
+                    { "type": "element", "name": "br" }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "h3",
+                  "attributes": { "style": "text-align: center" },
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "WORLD HISTORY – UNIT 3: THE MEDIEVAL WORLD"
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "h1",
+                  "attributes": {
+                    "style": "font-weight: bold; text-align: center"
+                  },
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "TRANSITION: THE CONTINENT AND NEW INVASIONS"
+                    }
+                  ]
+                },
+                { "type": "element", "name": "br" },
+                { "type": "element", "name": "br" },
+                {
+                  "type": "element",
+                  "name": "p",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "The eighth through the eleventh centuries brought many changes in\r\n European politics, economics, culture, and religion.\r\n Invasions were less frequent and more highly concentrated,\r\n individual kingdoms began to emerge as leaders, a new empire\r\n was being established on the continent, and the feudal system\r\n began to take hold and to grow throughout medieval\r\n Europe."
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "p",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "In this section, you will\r\n study some of the key men and events that played a role in,\r\n and at times caused, these changes. You will study the rise\r\n and fall of Charlemagne's empire, the England of King Alfred\r\n the Great, and the new wave of invasions that threatened\r\n Europe."
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "b",
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "p",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Here are your goals for this lesson:"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "ul",
+                      "elements": [
+                        {
+                          "type": "element",
+                          "name": "li",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "Identify significant events in the reign of Charlemagne."
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "name": "li",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "Recognize the role of the Vikings and Magyars in the decline of the Roman Empire."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                { "type": "element", "name": "br" },
+                {
+                  "type": "element",
+                  "name": "h1",
+                  "attributes": {
+                    "style": "font-weight: bold; text-align: left"
+                  },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "img",
+                      "attributes": {
+                        "src": "../../Globimag/VOC!107.gif",
+                        "height": "50",
+                        "width": "325"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "vocab_section",
+                  "attributes": { "group": "1" }
+                },
+                { "type": "element", "name": "br" },
+                { "type": "element", "name": "br" },
+                {
+                  "type": "element",
+                  "name": "h2",
+                  "attributes": {
+                    "style": "font-weight: bold; text-align: center"
+                  },
+                  "elements": [
+                    { "type": "text", "text": "THE CONTINENT" },
+                    { "type": "element", "name": "br" },
+                    {
+                      "type": "element",
+                      "name": "img",
+                      "attributes": {
+                        "src": "../../Globimag/lin1!407.gif",
+                        "height": "1",
+                        "width": "600"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "p",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "The most important\r\n European development in Europe at this time was the rise of\r\n Charlemagne and his empire. During his reign the Frankish\r\n empire was expanded, government was stabilized, education and\r\n learning were encouraged, and the power of the Catholic\r\n church was strengthened and extended."
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "p",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "At this same time, in\r\n England, culture and learning were flourishing in the\r\n monastic centers. The political situation was relatively\r\n stable because the king, Alfred the Great, was strong and\r\n able."
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "p",
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "b",
+                      "elements": [
+                        { "type": "text", "text": "Rise of\r\n Charlemagne" }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ". After the death of Clovis in "
+                    },
+                    {
+                      "type": "element",
+                      "name": "timeline",
+                      "attributes": { "date": "511" },
+                      "elements": [{ "type": "text", "text": "511" }]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", the Frankish kingdom had been divided\r\n among his four sons. Constant disputes and civil wars\r\n resulted in a three-way division of the kingdom in the seventh century. This division established\r\n the kingdoms of Neustria, Austrasia, and Burgundy. The\r\n Frankish kings of the seventh century\r\n did very little. For this reason, they became known as the\r\n Do-Nothing-Kings. The real power in each kingdom was the\r\n Mayor of the Palace. The genealogy shows the succession of\r\n the these Mayors, or Arnulfian Mayors as they are sometimes\r\n called."
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "p",
+                  "attributes": {
+                    "style": "font-weight: bold; text-align: center"
+                  },
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "\r\n Click on button to see chart."
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "p",
+                  "attributes": { "style": "text-align: center" },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "a",
+                      "attributes": { "href": "mayors.html", "target": "_new" },
+                      "elements": [
+                        {
+                          "type": "element",
+                          "name": "img",
+                          "attributes": {
+                            "src": "im6butn.gif",
+                            "height": "50",
+                            "width": "150"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "p",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Pepin, Mayor of the\r\n Palace in Austrasia, reunited Austrasia and Neustria and gave\r\n himself the title of \"leader and prince of the Franks\". By\r\n doing so he established himself as an hereditary ruler.\r\n Pepin's son, Charles Martel, sometimes called, \"the Hammer\"\r\n became Mayor of the Palace in "
+                    },
+                    {
+                      "type": "element",
+                      "name": "timeline",
+                      "attributes": { "date": "714" },
+                      "elements": [{ "type": "text", "text": "714" }]
+                    },
+                    { "type": "text", "text": ".\r\n Charles ruled from " },
+                    {
+                      "type": "element",
+                      "name": "timeline",
+                      "attributes": { "date": "714" },
+                      "elements": [{ "type": "text", "text": "714" }]
+                    },
+                    { "type": "text", "text": " to " },
+                    {
+                      "type": "element",
+                      "name": "timeline",
+                      "attributes": { "date": "741" },
+                      "elements": [{ "type": "text", "text": "741" }]
+                    },
+                    {
+                      "type": "text",
+                      "text": " and strengthened the frontiers, put\r\n down the Muslim attacks, and protected Christian missionaries\r\n from the barbarians and the Arian Christians."
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "p",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Charles' son, Pepin the\r\n Short, ruled from "
+                    },
+                    {
+                      "type": "element",
+                      "name": "timeline",
+                      "attributes": { "date": "747" },
+                      "elements": [{ "type": "text", "text": "747" }]
+                    },
+                    { "type": "text", "text": " to " },
+                    {
+                      "type": "element",
+                      "name": "timeline",
+                      "attributes": { "date": "768" },
+                      "elements": [{ "type": "text", "text": "768" }]
+                    },
+                    {
+                      "type": "text",
+                      "text": ". He ruled as Mayor of the Palace until\r\n "
+                    },
+                    {
+                      "type": "element",
+                      "name": "timeline",
+                      "attributes": { "date": "752" },
+                      "elements": [{ "type": "text", "text": "752" }]
+                    },
+                    {
+                      "type": "text",
+                      "text": " when he was elected king by the\r\n nobles. Pepin asked the Pope to anoint him king and\r\n officially declare the end of the reign of the\r\n Do-Nothing-Kings. The Pope agreed and in "
+                    },
+                    {
+                      "type": "element",
+                      "name": "timeline",
+                      "attributes": { "date": "754" },
+                      "elements": [{ "type": "text", "text": "754" }]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", Pepin the Short was anointed king.\r\n Pepin defeated the Lombards in Italy in "
+                    },
+                    {
+                      "type": "element",
+                      "name": "timeline",
+                      "attributes": { "date": "754" },
+                      "elements": [{ "type": "text", "text": "754" }]
+                    },
+                    { "type": "text", "text": " and " },
+                    {
+                      "type": "element",
+                      "name": "timeline",
+                      "attributes": { "date": "756" },
+                      "elements": [{ "type": "text", "text": "756" }]
+                    },
+                    {
+                      "type": "text",
+                      "text": " and gave\r\n some of the lands to the Pope. This land gift is known as the\r\n Donation of Pepin and became the "
+                    },
+                    {
+                      "type": "element",
+                      "name": "em",
+                      "elements": [{ "type": "text", "text": "Papal States." }]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "p",
+                  "elements": [
+                    { "type": "text", "text": "In " },
+                    {
+                      "type": "element",
+                      "name": "timeline",
+                      "attributes": { "date": "768" },
+                      "elements": [{ "type": "text", "text": "768" }]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", Pepin's two sons, Charles and\r\n Carloman, took the throne. By "
+                    },
+                    {
+                      "type": "element",
+                      "name": "timeline",
+                      "attributes": { "date": "771" },
+                      "elements": [{ "type": "text", "text": "771" }]
+                    },
+                    {
+                      "type": "text",
+                      "text": ",\r\n Charles was the sole ruler and reigned over his Frankish\r\n empire until "
+                    },
+                    {
+                      "type": "element",
+                      "name": "timeline",
+                      "attributes": { "date": "814" },
+                      "elements": [{ "type": "text", "text": "814" }]
+                    },
+                    {
+                      "type": "text",
+                      "text": ". Charles was the first\r\n and greatest of the "
+                    },
+                    {
+                      "type": "element",
+                      "name": "em",
+                      "elements": [{ "type": "text", "text": "Carolingian" }]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\r\n kings. He became known as Charles the Great, or Charlemagne.\r\n Charlemagne was an able military leader. His military and\r\n religious goal was to unite the Germanic tribes into a single\r\n Christian state. Charlemagne battled the Lombards, annexed\r\n their land at the Pope's behest, and gave himself the title,\r\n King of the Lombards, in "
+                    },
+                    {
+                      "type": "element",
+                      "name": "timeline",
+                      "attributes": { "date": "774" },
+                      "elements": [{ "type": "text", "text": "774" }]
+                    },
+                    { "type": "text", "text": ". He annexed\r\n Bavaria in " },
+                    {
+                      "type": "element",
+                      "name": "timeline",
+                      "attributes": { "date": "788" },
+                      "elements": [{ "type": "text", "text": "788" }]
+                    },
+                    {
+                      "type": "text",
+                      "text": ". He battled the tribes\r\n between the Rhine and the Elbe rivers for nearly thirty\r\n years. The captured tribes were given the choice of\r\n Christianity or death. Charlemagne conquered the Avars in the\r\n east, and eliminated them from the region of the Danube River. He attacked the\r\n Muslims in Spain in "
+                    },
+                    {
+                      "type": "element",
+                      "name": "timeline",
+                      "attributes": { "date": "778" },
+                      "elements": [{ "type": "text", "text": "778" }]
+                    },
+                    {
+                      "type": "text",
+                      "text": " and, after\r\n setbacks and the loss of many lives, captured the northeast\r\n section in "
+                    },
+                    {
+                      "type": "element",
+                      "name": "timeline",
+                      "attributes": { "date": "801" },
+                      "elements": [{ "type": "text", "text": "801" }]
+                    },
+                    { "type": "text", "text": "." }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "p",
+                  "attributes": { "style": "text-align: center" },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "img",
+                      "attributes": {
+                        "src": "GROUPIM7.GIF",
+                        "height": "400",
+                        "width": "606"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "p",
+                  "elements": [
+                    { "type": "text", "text": "In the year " },
+                    {
+                      "type": "element",
+                      "name": "timeline",
+                      "attributes": { "date": "800" },
+                      "elements": [{ "type": "text", "text": "800" }]
+                    },
+                    {
+                      "type": "text",
+                      "text": " a significant event in European history\r\n took place. On Christmas Day of that year, Pope Leo III\r\n crowned Charlemagne, the \"Emperor of the Romans.\" This was an\r\n attempt to reestablish the Roman Empire with Charlemagne as\r\n its emperor and with the full support of the Roman Church\r\n behind him. This angered the Byzantine Empire in the east\r\n which believed it had a claim to Rome as the remaining part\r\n of the original empire. This event also reinforced the power\r\n of the church in government affairs. In effect, the church\r\n had crowned and approved Charlemagne. This question of\r\n political power of the church over temporal rulers became\r\n more serious in the centuries to follow."
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "p",
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "b",
+                      "elements": [
+                        { "type": "text", "text": "Reign of\r\n Charlemagne." }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Charlemagne's government was well organized\r\n and stable because of a carefully planned check system.\r\n Charlemagne appointed "
+                    },
+                    {
+                      "type": "element",
+                      "name": "em",
+                      "elements": [{ "type": "text", "text": "counts" }]
+                    },
+                    {
+                      "type": "text",
+                      "text": " who were usually wealthy\r\n men of noble families. The count ruled over a county together\r\n with the bishop or archbishop of that county. Charlemagne\r\n appointed "
+                    },
+                    {
+                      "type": "element",
+                      "name": "em",
+                      "elements": [{ "type": "text", "text": "dukes" }]
+                    },
+                    {
+                      "type": "text",
+                      "text": " to rule over a group of counties.\r\n Finally, Charlemagne appointed agents known as "
+                    },
+                    {
+                      "type": "element",
+                      "name": "em",
+                      "elements": [
+                        { "type": "text", "text": "missi\r\n dominici," }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " \"messengers of God,\" who went out in pairs to\r\n visit the counties each year. These messengers checked the\r\n local courts and reported the state of the empire to\r\n Charlemagne. The frontier areas, or "
+                    },
+                    {
+                      "type": "element",
+                      "name": "em",
+                      "elements": [{ "type": "text", "text": "marches" }]
+                    },
+                    {
+                      "type": "text",
+                      "text": " as they\r\n were called, were ruled by margraves who were counts and\r\n military men. These buffer zones surrounded most of the\r\n empire."
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "p",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Charlemagne's capital was\r\n at Aix-la-Chapelle, (the modern city of Aachen, Germany). The legal\r\n system of the empire was primarily the ancient Germanic law\r\n that retained the compensation or "
+                    },
+                    {
+                      "type": "element",
+                      "name": "em",
+                      "elements": [{ "type": "text", "text": "wergild" }]
+                    },
+                    {
+                      "type": "text",
+                      "text": " and the\r\n trial by ordeal. The major difference was the Christian\r\n emphasis added to this law, and the Christian interpretation\r\n of the law."
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "p",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Europe and Charlemagne's\r\n empire were isolated economically. Charlemagne restored roads\r\n and bridges, but very little trade passed over them. The\r\n Muslims controlled the trade routes to the East and the\r\n shipping routes of the Mediterranean, making an economy based\r\n on trade impossible. Minimal trade was carried on between\r\n provinces. Little money was coined because little was\r\n used."
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "p",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Landowners were warriors\r\n first, and they thought of their lands only as a means of\r\n financing wars. This attitude led to the decline of the\r\n agricultural method, and to poor living and working\r\n conditions for the lower class."
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "p",
+                  "attributes": {
+                    "style": "font-weight: bold; text-align: center"
+                  },
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Click on\r\n button to see chart."
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "p",
+                  "attributes": { "style": "text-align: center" },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "a",
+                      "attributes": {
+                        "href": "dynasty.html",
+                        "target": "_new"
+                      },
+                      "elements": [
+                        {
+                          "type": "element",
+                          "name": "img",
+                          "attributes": {
+                            "src": "im8butn.gif",
+                            "height": "50",
+                            "width": "150"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "p",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "The reign of Charlemagne\r\n is distinguished as a time of culture and learning; therefore\r\n the term \"Carolingian Renaissance\" is sometimes applied to\r\n Charlemagne's reign. The buildings and churches of the\r\n capital city at Aix-la-Chapelle reflected both Roman and\r\n Byzantine influences. For some structures he imported columns\r\n from Rome and Ravenna."
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "p",
+                  "attributes": {
+                    "style": "font-weight: bold; text-align: center"
+                  },
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Click on\r\n button to see chart."
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "p",
+                  "attributes": { "style": "text-align: center" },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "a",
+                      "attributes": { "href": "france.html", "target": "_new" },
+                      "elements": [
+                        {
+                          "type": "element",
+                          "name": "img",
+                          "attributes": {
+                            "src": "im9butn.gif",
+                            "height": "50",
+                            "width": "150"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "p",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Charlemagne established\r\n centers of learning and sought out famous scholars to teach\r\n the secular clergy and laity as well as the children. He also\r\n established libraries and a famous "
+                    },
+                    {
+                      "type": "element",
+                      "name": "em",
+                      "elements": [{ "type": "text", "text": "scriptorium" }]
+                    },
+                    {
+                      "type": "text",
+                      "text": "\r\n at Tours so that ancient manuscripts could be preserved and\r\n copied by monks. The greatest scholar to Charlemagne's court\r\n was the English monk, Alcuin of York ("
+                    },
+                    {
+                      "type": "element",
+                      "name": "timeline",
+                      "attributes": { "date": "735" },
+                      "elements": [{ "type": "text", "text": "735" }]
+                    },
+                    { "type": "text", "text": "- " },
+                    {
+                      "type": "element",
+                      "name": "timeline",
+                      "attributes": { "date": "804" },
+                      "elements": [{ "type": "text", "text": "804" }]
+                    },
+                    {
+                      "type": "text",
+                      "text": "), who\r\n established a palace school, the "
+                    },
+                    {
+                      "type": "element",
+                      "name": "em",
+                      "elements": [{ "type": "text", "text": "scriptorium" }]
+                    },
+                    {
+                      "type": "text",
+                      "text": " at Tours,\r\n and who directed most of the educational activity of the\r\n empire."
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "p",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Charlemagne issued laws\r\n ordering the monastic and cathedral schools to provide better\r\n education for the clergy. He also established parish schools\r\n where none existed. To insure observation of these laws he\r\n sent out the "
+                    },
+                    {
+                      "type": "element",
+                      "name": "em",
+                      "elements": [{ "type": "text", "text": "missi dominici" }]
+                    },
+                    {
+                      "type": "text",
+                      "text": " to report on the progress\r\n of the schools. Some of these schools survived and became the\r\n basis of medieval universities. Little Carolingian literature\r\n survives. What remains suggests that the Carolingian empire\r\n produced little, if any, good literature."
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "p",
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "b",
+                      "elements": [
+                        { "type": "text", "text": "Decline of the\r\n Empire." }
+                      ]
+                    },
+                    { "type": "text", "text": " Before his death in " },
+                    {
+                      "type": "element",
+                      "name": "timeline",
+                      "attributes": { "date": "814" },
+                      "elements": [{ "type": "text", "text": "814" }]
+                    },
+                    {
+                      "type": "text",
+                      "text": ",\r\n Charlemagne had his son, Louis the Pious, crowned emperor. As\r\n soon as Charlemagne died, the empire began to collapse. Louis\r\n the Pious was a weak leader and could not hold together the\r\n vast territory. He divided the empire among his three sons\r\n who immediately began to fight over their allotted lands. The\r\n two younger sons, Louis the German and Charles the Bald,\r\n joined forces against their elder brother, Lothar (or Lothair), who was\r\n then emperor. In "
+                    },
+                    {
+                      "type": "element",
+                      "name": "timeline",
+                      "attributes": { "date": "842" },
+                      "elements": [{ "type": "text", "text": "842" }]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", the younger\r\n brothers formalized their union by the Strasbourg Oaths."
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "p",
+                  "elements": [
+                    { "type": "text", "text": "In " },
+                    {
+                      "type": "element",
+                      "name": "timeline",
+                      "attributes": { "date": "843" },
+                      "elements": [{ "type": "text", "text": "843" }]
+                    },
+                    {
+                      "type": "text",
+                      "text": " by the Treaty of Verdun, the empire was\r\n redivided into three kingdoms. The western kingdom, or West\r\n Frankland, went to Charles the Bald. The eastern kingdom, or\r\n East Frankland, went to Louis the German. These two kingdoms\r\n formed the basis for what would become modern France and\r\n modern Germany centuries later. The middle kingdom, which was\r\n a narrow strip of land extending from the North Sea to the\r\n middle of Italy, went to Lothar. This narrow strip between\r\n the two other kingdoms was a source of constant warfare.\r\n Sections of this strip have been the source of conflict\r\n between France and Germany since that time."
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "p",
+                  "attributes": { "style": "text-align: center" },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "img",
+                      "attributes": {
+                        "src": "GROUPI10.GIF",
+                        "height": "388",
+                        "width": "600"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "p",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "Civil wars and poor\r\n leadership weakened the empire to such an extent that it\r\n could no longer resist foreign invasions. The last\r\n Carolingian emperor, Charles the Fat, son of Louis the\r\n German, was deposed in "
+                    },
+                    {
+                      "type": "element",
+                      "name": "timeline",
+                      "attributes": { "date": "887" },
+                      "elements": [{ "type": "text", "text": "887" }]
+                    },
+                    {
+                      "type": "text",
+                      "text": " because he\r\n had not been strong against the Viking raiders. Charles the\r\n Simple, the last Carolingian king died in "
+                    },
+                    {
+                      "type": "element",
+                      "name": "timeline",
+                      "attributes": { "date": "987" },
+                      "elements": [{ "type": "text", "text": "987" }]
+                    },
+                    { "type": "text", "text": "." }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "name": "problem",
+              "attributes": {
+                "ident": "1",
+                "type": "Matching",
+                "autograded": "yes",
+                "pointvalue": "8"
+              },
+              "elements": [
+                { "type": "element", "name": "instructions" },
+                {
+                  "type": "element",
+                  "name": "matching",
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "question",
+                      "elements": [
+                        {
+                          "type": "element",
+                          "name": "p",
+                          "elements": [
+                            {
+                              "type": "element",
+                              "name": "b",
+                              "elements": [
+                                {
+                                  "type": "text",
+                                  "text": "Match these vocabulary terms to their definitions. Match the items in the left column to the items in the right column."
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "target_list",
+                      "elements": [
+                        {
+                          "type": "element",
+                          "name": "item",
+                          "attributes": { "ident": "1" },
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "name of the second Frankish dynasty of kings"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "name": "item",
+                          "attributes": { "ident": "2" },
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "an area along the border of a country, especially one subject to attack"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "name": "item",
+                          "attributes": { "ident": "3" },
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "a room in a monastery for writing or copying manuscripts"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "name": "item",
+                          "attributes": { "ident": "4" },
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "literally, a man's price or worth"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "name": "item",
+                          "attributes": { "ident": "5" },
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "large district in central Italy ruled by Popes from 775-1870"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "name": "item",
+                          "attributes": { "ident": "6" },
+                          "elements": [
+                            { "type": "text", "text": "highest ranking noble" }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "name": "item",
+                          "attributes": { "ident": "7" },
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "a noble who ruled a county in Charlemagne's time"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "name": "item",
+                          "attributes": { "ident": "8" },
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "in the Middle Ages, the military ruler of a march"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "word_list",
+                      "elements": [
+                        {
+                          "type": "element",
+                          "name": "word",
+                          "attributes": { "formatting": "normal" },
+                          "elements": [
+                            { "type": "text", "text": "Carolingian" }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "name": "word",
+                          "attributes": { "formatting": "normal" },
+                          "elements": [{ "type": "text", "text": "march" }]
+                        },
+                        {
+                          "type": "element",
+                          "name": "word",
+                          "attributes": { "formatting": "normal" },
+                          "elements": [
+                            { "type": "text", "text": "scriptorium" }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "name": "word",
+                          "attributes": { "formatting": "normal" },
+                          "elements": [{ "type": "text", "text": "wergild" }]
+                        },
+                        {
+                          "type": "element",
+                          "name": "word",
+                          "attributes": { "formatting": "normal" },
+                          "elements": [
+                            { "type": "text", "text": "Papal States" }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "name": "word",
+                          "attributes": { "formatting": "normal" },
+                          "elements": [{ "type": "text", "text": "duke" }]
+                        },
+                        {
+                          "type": "element",
+                          "name": "word",
+                          "attributes": { "formatting": "normal" },
+                          "elements": [{ "type": "text", "text": "count" }]
+                        },
+                        {
+                          "type": "element",
+                          "name": "word",
+                          "attributes": { "formatting": "normal" },
+                          "elements": [{ "type": "text", "text": "margrave" }]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "matching_answer",
+                      "attributes": { "ident": "1" },
+                      "elements": [{ "type": "text", "text": "Carolingian" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "matching_answer",
+                      "attributes": { "ident": "2" },
+                      "elements": [{ "type": "text", "text": "march" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "matching_answer",
+                      "attributes": { "ident": "3" },
+                      "elements": [{ "type": "text", "text": "scriptorium" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "matching_answer",
+                      "attributes": { "ident": "4" },
+                      "elements": [{ "type": "text", "text": "wergild" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "matching_answer",
+                      "attributes": { "ident": "5" },
+                      "elements": [{ "type": "text", "text": "Papal States" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "matching_answer",
+                      "attributes": { "ident": "6" },
+                      "elements": [{ "type": "text", "text": "duke" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "matching_answer",
+                      "attributes": { "ident": "7" },
+                      "elements": [{ "type": "text", "text": "count" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "matching_answer",
+                      "attributes": { "ident": "8" },
+                      "elements": [{ "type": "text", "text": "margrave" }]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "problemfeedback",
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "correct_message",
+                      "elements": [{ "type": "text", "text": "Way to Go!" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "incorrect_message",
+                      "elements": [{ "type": "text", "text": "Try Again." }]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "name": "problem",
+              "attributes": {
+                "ident": "2",
+                "type": "TextMultipleChoice",
+                "autograded": "yes",
+                "pointvalue": "1"
+              },
+              "elements": [
+                { "type": "element", "name": "instructions" },
+                {
+                  "type": "element",
+                  "name": "text_multiple_choice",
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "tmc_question",
+                      "elements": [
+                        {
+                          "type": "element",
+                          "name": "p",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "The Frankish kings of the seventh century were called "
+                            },
+                            {
+                              "type": "element",
+                              "name": "tmc_box",
+                              "attributes": { "ident": "tc1", "size": "15" }
+                            },
+                            { "type": "text", "text": " Kings." }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "text_choices",
+                      "attributes": { "ident": "tc1" },
+                      "elements": [
+                        {
+                          "type": "element",
+                          "name": "text_choice",
+                          "elements": [{ "type": "text", "text": "Do Nothing" }]
+                        },
+                        {
+                          "type": "element",
+                          "name": "text_choice",
+                          "elements": [
+                            { "type": "text", "text": "Untouchable" }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "name": "text_choice",
+                          "elements": [{ "type": "text", "text": "Divine" }]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "text_multiple_choice_answer",
+                      "attributes": { "ident": "tc1" },
+                      "elements": [{ "type": "text", "text": "Do Nothing" }]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "problemfeedback",
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "correct_message",
+                      "elements": [{ "type": "text", "text": "Way to Go!" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "incorrect_message",
+                      "elements": [{ "type": "text", "text": "Try Again." }]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "name": "problem",
+              "attributes": {
+                "ident": "3",
+                "type": "MultipleChoice",
+                "autograded": "yes",
+                "pointvalue": "1"
+              },
+              "elements": [
+                { "type": "element", "name": "instructions" },
+                {
+                  "type": "element",
+                  "name": "multiple_choice",
+                  "attributes": { "alignment": "vertical" },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "question",
+                      "elements": [
+                        {
+                          "type": "element",
+                          "name": "p",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "Charlemagne was crowned emperor on ________ in the year 800 by Pope Leo III."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "choice",
+                      "attributes": { "value": "V1" },
+                      "elements": [{ "type": "text", "text": "Good Friday" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "choice",
+                      "attributes": { "value": "V2" },
+                      "elements": [{ "type": "text", "text": "All Saints Day" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "choice",
+                      "attributes": { "value": "V3" },
+                      "elements": [{ "type": "text", "text": "Christmas Day" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "choice",
+                      "attributes": { "value": "V4" },
+                      "elements": [{ "type": "text", "text": "Easter" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "multiple_choice_answer",
+                      "attributes": { "value": "V3" }
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "problemfeedback",
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "correct_message",
+                      "elements": [{ "type": "text", "text": "Way to Go!" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "incorrect_message",
+                      "elements": [{ "type": "text", "text": "Try Again." }]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "name": "problem",
+              "attributes": {
+                "ident": "4",
+                "type": "MultipleChoice",
+                "autograded": "yes",
+                "pointvalue": "1"
+              },
+              "elements": [
+                { "type": "element", "name": "instructions" },
+                {
+                  "type": "element",
+                  "name": "multiple_choice",
+                  "attributes": { "alignment": "vertical" },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "question",
+                      "elements": [
+                        {
+                          "type": "element",
+                          "name": "p",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "Charlemagne's people that were assigned to travel in pairs through the empire checking on courts and the state of the empire were called:"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "choice",
+                      "attributes": { "value": "V1" },
+                      "elements": [{ "type": "text", "text": "wergilds" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "choice",
+                      "attributes": { "value": "V2" },
+                      "elements": [{ "type": "text", "text": "latifundias" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "choice",
+                      "attributes": { "value": "V3" },
+                      "elements": [{ "type": "text", "text": "viziers" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "choice",
+                      "attributes": { "value": "V4" },
+                      "elements": [{ "type": "text", "text": "missi dominici" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "multiple_choice_answer",
+                      "attributes": { "value": "V4" }
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "problemfeedback",
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "correct_message",
+                      "elements": [{ "type": "text", "text": "Way to Go!" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "incorrect_message",
+                      "elements": [{ "type": "text", "text": "Try Again." }]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "name": "problem",
+              "attributes": {
+                "ident": "5",
+                "type": "MultipleChoice",
+                "autograded": "yes",
+                "pointvalue": "1"
+              },
+              "elements": [
+                { "type": "element", "name": "instructions" },
+                {
+                  "type": "element",
+                  "name": "multiple_choice",
+                  "attributes": { "alignment": "vertical" },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "question",
+                      "elements": [
+                        {
+                          "type": "element",
+                          "name": "p",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "Charlemagne's capital city was:"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "choice",
+                      "attributes": { "value": "V1" },
+                      "elements": [{ "type": "text", "text": "Paris" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "choice",
+                      "attributes": { "value": "V2" },
+                      "elements": [{ "type": "text", "text": "Rome" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "choice",
+                      "attributes": { "value": "V3" },
+                      "elements": [
+                        { "type": "text", "text": "Aix-la-Chapelle" }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "multiple_choice_answer",
+                      "attributes": { "value": "V3" }
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "problemfeedback",
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "correct_message",
+                      "elements": [{ "type": "text", "text": "Correct" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "incorrect_message",
+                      "elements": [{ "type": "text", "text": "Incorrect" }]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "name": "problem",
+              "attributes": {
+                "ident": "6",
+                "type": "TextMultipleChoice",
+                "autograded": "yes",
+                "pointvalue": "1"
+              },
+              "elements": [
+                { "type": "element", "name": "instructions" },
+                {
+                  "type": "element",
+                  "name": "text_multiple_choice",
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "tmc_question",
+                      "elements": [
+                        {
+                          "type": "element",
+                          "name": "p",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "The time of great learning during Charlemagne's reign was the time known as the Carolingian "
+                            },
+                            {
+                              "type": "element",
+                              "name": "tmc_box",
+                              "attributes": { "ident": "tc1", "size": "16" }
+                            },
+                            { "type": "text", "text": "." }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "text_choices",
+                      "attributes": { "ident": "tc1" },
+                      "elements": [
+                        {
+                          "type": "element",
+                          "name": "text_choice",
+                          "elements": [
+                            { "type": "text", "text": "Renaissance" }
+                          ]
+                        },
+                        {
+                          "type": "element",
+                          "name": "text_choice",
+                          "elements": [
+                            { "type": "text", "text": "Middle Ages" }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "text_multiple_choice_answer",
+                      "attributes": { "ident": "tc1" },
+                      "elements": [{ "type": "text", "text": "Renaissance" }]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "problemfeedback",
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "correct_message",
+                      "elements": [{ "type": "text", "text": "Correct" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "incorrect_message",
+                      "elements": [{ "type": "text", "text": "Incorrect" }]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "name": "problem",
+              "attributes": {
+                "ident": "7",
+                "type": "MultipleChoice",
+                "autograded": "yes",
+                "pointvalue": "1"
+              },
+              "elements": [
+                { "type": "element", "name": "instructions" },
+                {
+                  "type": "element",
+                  "name": "multiple_choice",
+                  "attributes": { "alignment": "vertical" },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "question",
+                      "elements": [
+                        {
+                          "type": "element",
+                          "name": "p",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "The greatest scholar brought to Charlemagne's court came from:"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "choice",
+                      "attributes": { "value": "V1" },
+                      "elements": [{ "type": "text", "text": "England" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "choice",
+                      "attributes": { "value": "V2" },
+                      "elements": [{ "type": "text", "text": "Ireland" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "choice",
+                      "attributes": { "value": "V3" },
+                      "elements": [{ "type": "text", "text": "Rome" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "multiple_choice_answer",
+                      "attributes": { "value": "V1" }
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "problemfeedback",
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "correct_message",
+                      "elements": [{ "type": "text", "text": "Correct" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "incorrect_message",
+                      "elements": [{ "type": "text", "text": "Incorrect" }]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "name": "problem",
+              "attributes": {
+                "ident": "8",
+                "type": "MultipleChoice",
+                "autograded": "yes",
+                "pointvalue": "1"
+              },
+              "elements": [
+                { "type": "element", "name": "instructions" },
+                {
+                  "type": "element",
+                  "name": "multiple_choice",
+                  "attributes": { "alignment": "vertical" },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "question",
+                      "elements": [
+                        {
+                          "type": "element",
+                          "name": "p",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "The Treaty of Verdun was made in:"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "choice",
+                      "attributes": { "value": "V1" },
+                      "elements": [{ "type": "text", "text": "814" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "choice",
+                      "attributes": { "value": "V2" },
+                      "elements": [{ "type": "text", "text": "843" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "choice",
+                      "attributes": { "value": "V3" },
+                      "elements": [{ "type": "text", "text": "823" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "multiple_choice_answer",
+                      "attributes": { "value": "V2" }
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "problemfeedback",
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "correct_message",
+                      "elements": [{ "type": "text", "text": "Correct" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "incorrect_message",
+                      "elements": [{ "type": "text", "text": "Incorrect" }]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "section",
+          "attributes": { "ident": "0002", "problemcount": "2" },
+          "elements": [
+            {
+              "type": "element",
+              "name": "presentation",
+              "elements": [
+                {
+                  "type": "element",
+                  "name": "h2",
+                  "attributes": {
+                    "style": "font-weight: bold; text-align: center"
+                  },
+                  "elements": [
+                    { "type": "text", "text": "NEW INVASIONS" },
+                    { "type": "element", "name": "br" },
+                    {
+                      "type": "element",
+                      "name": "img",
+                      "attributes": {
+                        "src": "../../Globimag/lin1!407.gif",
+                        "height": "1",
+                        "width": "600"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "p",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "The decline of\r\n Charlemagne's empire opened the way for new barbarian\r\n invasions, just as the decline of the Western Roman Empire\r\n opened the way for the earlier barbarian invasions. The\r\n invaders came from the north as the Germanic\r\n Scandinavian tribes began to push southward and from the east as the Slavs and the Magyars\r\n began to move toward the west. The Muslims also\r\n continued their invasions from the south."
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "p",
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "b",
+                      "elements": [{ "type": "text", "text": "The Vikings" }]
+                    },
+                    {
+                      "type": "text",
+                      "text": ". The\r\n Germanic invaders, the Vikings or Norsemen, had the greatest\r\n impact. The Vikings from the areas now known as Norway,\r\n Sweden, and Denmark invaded coastal territories from Russia\r\n to England, down the Frankish coastal areas, around the\r\n Spanish peninsula, and into the Mediterranean as far as Rome.\r\n Evidence has been found showing Viking presence through\r\n Russia by land to Constantinople. About the year "
+                    },
+                    {
+                      "type": "element",
+                      "name": "timeline",
+                      "attributes": { "date": "1000" },
+                      "elements": [{ "type": "text", "text": "1000" }]
+                    },
+                    {
+                      "type": "text",
+                      "text": ", the Norwegian Vikings reached North\r\n America by way of Iceland and Greenland."
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "p",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "The Vikings were skilled\r\n seamen who attacked silently and quickly. They killed men and\r\n children, looted and burned churches and monasteries, and\r\n carried off the women. The attack was so swift that little\r\n could be done to fight them."
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "p",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "After Charlemagne's\r\n death, Viking raids along the coast of West Frankland\r\n accelerated. In "
+                    },
+                    {
+                      "type": "element",
+                      "name": "timeline",
+                      "attributes": { "date": "911" },
+                      "elements": [{ "type": "text", "text": "911" }]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Charles the Simple\r\n allowed Rollo and his band of Vikings to settle on the\r\n northwest coast. This group remained; they called themselves\r\n Normans and their territory Normandy. They set up a\r\n government and became Christians. Rollo was baptized Robert\r\n and became the first Duke of Normandy."
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "p",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "In Ireland, the Vikings\r\n destroyed many of the monasteries, killing the monks,\r\n destroying the libraries, and carrying off the treasures. The\r\n Vikings invaded the Irish for nearly two hundred years from\r\n the late eighth century to the late tenth century."
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "p",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "In England, the Vikings\r\n found greater opposition. They raided England first in "
+                    },
+                    {
+                      "type": "element",
+                      "name": "timeline",
+                      "attributes": { "date": "787" },
+                      "elements": [{ "type": "text", "text": "787" }]
+                    },
+                    {
+                      "type": "text",
+                      "text": ". In the ninth century the Danish\r\n Vikings invaded the north of England. They established\r\n themselves in Northumbria and north of the Thames River. They\r\n met defeat in "
+                    },
+                    {
+                      "type": "element",
+                      "name": "timeline",
+                      "attributes": { "date": "878" },
+                      "elements": [{ "type": "text", "text": "878" }]
+                    },
+                    {
+                      "type": "text",
+                      "text": " at the hands of Alfred\r\n the Great and entered into an agreement known as the\r\n Danelaw."
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "p",
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "a",
+                      "attributes": { "href": "web:4512" },
+                      "elements": [
+                        {
+                          "type": "element",
+                          "name": "img",
+                          "attributes": {
+                            "src": "../../globimag/WWW!208a.GIF",
+                            "height": "29",
+                            "width": "65"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "text": "In the footsteps of the Vikings"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "p",
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "b",
+                      "elements": [
+                        { "type": "text", "text": "Slavs and Magyars" }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": ".\r\n In the eighth and ninth centuries, the Slavic tribes began\r\n frequent attacks on east Frankland. Late in the ninth century\r\n an Asiatic tribe, the Magyars, began a devastating march\r\n through eastern Europe. Their cruelty reminded Europeans of\r\n the dreaded Attila. The Magyars were sometimes called\r\n Hungarians because of their ancestral ties to the Huns."
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "p",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "The Magyars drove the\r\n Slavs out from north of the Danube River and settled there. This\r\n land has been referred to as Hungary ever since. Eventually\r\n Poland, parts of Italy, and Bavaria were taken. The Magyars\r\n did not attack Constantinople, but forced the empire to pay\r\n them tribute."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "name": "problem",
+              "attributes": {
+                "ident": "9",
+                "type": "MultipleChoice",
+                "autograded": "yes",
+                "pointvalue": "1"
+              },
+              "elements": [
+                { "type": "element", "name": "instructions" },
+                {
+                  "type": "element",
+                  "name": "multiple_choice",
+                  "attributes": { "alignment": "vertical" },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "question",
+                      "elements": [
+                        {
+                          "type": "element",
+                          "name": "p",
+                          "elements": [
+                            {
+                              "type": "text",
+                              "text": "In 911 Charles the Simple allowed Vikings to settle in what was later called:"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "choice",
+                      "attributes": { "value": "V1" },
+                      "elements": [{ "type": "text", "text": "England" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "choice",
+                      "attributes": { "value": "V2" },
+                      "elements": [{ "type": "text", "text": "Burgundy" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "choice",
+                      "attributes": { "value": "V3" },
+                      "elements": [{ "type": "text", "text": "Normandy" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "multiple_choice_answer",
+                      "attributes": { "value": "V3" }
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "problemfeedback",
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "correct_message",
+                      "elements": [{ "type": "text", "text": "Correct" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "incorrect_message",
+                      "elements": [{ "type": "text", "text": "Incorrect" }]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "element",
+              "name": "problem",
+              "attributes": {
+                "ident": "10",
+                "type": "MultipleChoice",
+                "autograded": "yes",
+                "pointvalue": "1"
+              },
+              "elements": [
+                { "type": "element", "name": "instructions" },
+                {
+                  "type": "element",
+                  "name": "multiple_choice",
+                  "attributes": { "alignment": "vertical" },
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "question",
+                      "elements": [
+                        {
+                          "type": "element",
+                          "name": "p",
+                          "elements": [
+                            { "type": "text", "text": "The Magyars were a(n):" }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "choice",
+                      "attributes": { "value": "V1" },
+                      "elements": [{ "type": "text", "text": "Germanic tribe" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "choice",
+                      "attributes": { "value": "V2" },
+                      "elements": [{ "type": "text", "text": "Asiatic tribe" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "choice",
+                      "attributes": { "value": "V3" },
+                      "elements": [{ "type": "text", "text": "Celtic tribe" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "multiple_choice_answer",
+                      "attributes": { "value": "V2" }
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "problemfeedback",
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "correct_message",
+                      "elements": [{ "type": "text", "text": "Correct" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "incorrect_message",
+                      "elements": [{ "type": "text", "text": "Incorrect" }]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
