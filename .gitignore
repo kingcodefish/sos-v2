@@ -93,6 +93,7 @@ dist
 
 # Electron build output
 dist-electron/
+release/
 
 # Gatsby files
 .cache/
