@@ -403,7 +403,7 @@ const Problems = () => {
             <div className="flex flex-row gap-2 items-center">
               {problems.map((_p, i) => {
                 return (
-                  <Button onClick={() => setProblem(i)} className={cn("dark:bg-gray-800 bg-gray-400 dark:text-white", i == problem ? "dark:bg-gray-600 bg-gray-600": "")}>{i}</Button>
+                  <Button onClick={() => setProblem(i)} className={cn("dark:bg-gray-800 bg-gray-400 dark:text-white", i == problem ? "dark:bg-gray-600 bg-gray-600": "")}>{i + 1}</Button>
                 );
               })}
             </div>
