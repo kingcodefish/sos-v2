@@ -4,7 +4,8 @@ interface SOSDocument {
 }
 
 interface XMLAttributes {
-
+  type: string;
+  src: string;
 }
 
 interface XMLElement {

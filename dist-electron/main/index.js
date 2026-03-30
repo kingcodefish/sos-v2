@@ -56,8 +56,8 @@ function startDownload(callback, complete) {
   autoUpdater.downloadUpdate();
 }
 createRequire(import.meta.url);
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-process.env.APP_ROOT = path.join(__dirname, "../..");
+const __dirname$1 = path.dirname(fileURLToPath(import.meta.url));
+process.env.APP_ROOT = path.join(__dirname$1, "../..");
 const MAIN_DIST = path.join(process.env.APP_ROOT, "dist-electron");
 const RENDERER_DIST = path.join(process.env.APP_ROOT, "dist");
 const VITE_DEV_SERVER_URL = process.env.VITE_DEV_SERVER_URL;
@@ -69,7 +69,7 @@ if (!app.requestSingleInstanceLock()) {
   process.exit(0);
 }
 let win = null;
-const preload = path.join(__dirname, "../preload/index.mjs");
+const preload = path.join(__dirname$1, "../preload/index.mjs");
 const indexHtml = path.join(RENDERER_DIST, "index.html");
 async function createWindow() {
   win = new BrowserWindow({

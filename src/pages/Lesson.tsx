@@ -36,12 +36,19 @@ interface VocabItem {
   sound: string;
 }
 
+interface Choice {
+  value: string;
+  text: string;
+}
+
 interface Problem {
   type: "Matching" | "MultipleChoice";
   autograded: "yes" | "no";
   pointvalue: number;
-  words: string[];
-  targets: string[];
+  words?: string[];
+  targets?: string[];
+  question?: string;
+  choices?: Choice[];
 }
 
 let vocabulary: VocabItem[] = [];
@@ -49,22 +56,20 @@ let problems: Problem[] = [];
 
 const parseMatchingProblem = (el: XMLElement) => {
   return {
-    type: "Matching",
-    autograded: "yes",
+    type: "Matching" as const,
+    autograded: "yes" as const,
     pointvalue: 8,
     words: ["word1", "word2"],
     targets: ["definition1", "definition2"],
-    answers: ["word1", "word2"],
   };
 };
 
 const parseMultipleChoiceProblem = (el: XMLElement) => {
   return {
-    type: "MultipleChoice",
-    autograded: "yes",
+    type: "MultipleChoice" as const,
+    autograded: "yes" as const,
     pointvalue: 1,
     question: "The greatest scholar brought to Charlemagne's court came from:",
-    answer: "V1",
     choices: [{
       value: "V1",
       text: "England"
@@ -80,12 +85,14 @@ const parseMultipleChoiceProblem = (el: XMLElement) => {
   };
 };
 
-const parseProblem = (el: XMLElement) => {
-  if (el.attributes.type === 'Matching')
+const parseProblem = (el: XMLElement): Problem | undefined => {
+  if (!el.attributes)
+    return undefined;
+  else if (el.attributes.type === 'Matching')
     return parseMatchingProblem(el);
   else if (el.attributes.type === 'MultipleChoice')
     return parseMultipleChoiceProblem(el);
-  return {type: el.attributes.type};
+  return undefined;
 };
 
 const parseElement = (el: XMLElement, fontFamily: string, fontSize: string) => {
@@ -96,7 +103,7 @@ const parseElement = (el: XMLElement, fontFamily: string, fontSize: string) => {
       return (
         <>
           <div className="w-screen -translate-x-[calc(50vw-325px)] text-white text-center from-green-500 to-green-700 tracking-widest bg-gradient-to-b min-h-[150px] flex flex-col justify-center">
-            <h1 className="my-0">{el.elements[1].elements[0].text.split('–')[0]}</h1>
+            <h1 className="my-0">{(el.elements![1].elements![0] as XMLText).text.split('–')[0]}</h1>
           </div>
           {el.elements && el.elements.filter((_el, i) => i != 0).map(el => parseNode(el, fontFamily, fontSize))}
         </>
@@ -208,6 +215,8 @@ const parseElement = (el: XMLElement, fontFamily: string, fontSize: string) => {
     }
     case 'img':
     {
+      if (!el.attributes) return;
+
       // Filter out headers
 
       // Filter out vocabulary images
@@ -222,7 +231,8 @@ const parseElement = (el: XMLElement, fontFamily: string, fontSize: string) => {
     }
     case 'vocab_sound':
     case 'problem':
-      problems.push(parseProblem(el));
+      const problem = parseProblem(el);
+      if (problem) problems.push(problem);
       // Discard
       return <></>;
     default:
@@ -238,7 +248,7 @@ const parseElement = (el: XMLElement, fontFamily: string, fontSize: string) => {
 
 const parseNode = (node: XMLElement | XMLText, fontFamily: string, fontSize: string): JSX.Element | string => {
   return node.type === 'element' ?
-    parseElement(node, fontFamily, fontSize) : node.type === 'text' ? parseText(node as XMLText)
+    parseElement(node, fontFamily, fontSize)! : node.type === 'text' ? parseText(node as XMLText)
     : <></>;
 };
 
@@ -343,12 +353,12 @@ const Problem = ({ problem }: {problem: Problem}) => {
         <div>Match the words with their definitions.</div>
         <div className="flex flex-row gap-4">
           <div className="flex flex-col gap-2">
-            {problem.words.map(word => (
+            {problem.words!.map(word => (
               <div className="rounded-lg select-none hover:opacity-80 cursor-move border-2 px-4 py-1 bg-slate-700">{word}</div>
             ))}
           </div>
           <div className="flex flex-col gap-2">
-            {problem.targets.map(word => (
+            {problem.targets!.map(word => (
               <div className="rounded-lg select-none border-2 px-4 py-1">{word}</div>
             ))}
           </div>
@@ -361,7 +371,7 @@ const Problem = ({ problem }: {problem: Problem}) => {
       <div className="flex flex-col gap-8">
         <div>{problem.question}</div>
         <RadioGroup defaultValue="V1">
-          {problem.choices.map(choice => {
+          {problem.choices!.map(choice => {
             return (
               <div className="flex items-center space-x-2">
                 <RadioGroupItem value={choice.value} id={choice.value} />
